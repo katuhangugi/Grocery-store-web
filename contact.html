@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Farm-Fresh Grocery Shop - Contact Us</title>
+</head>
+<body>
+    <header>
+        <h1>Farm-Fresh Grocery Shop</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions, feedback, or inquiries, please feel free to reach out to us. We're here to assist you with your grocery needs and provide you with the best shopping experience.</p>
+        
+        <div class="contact-form">
+            <form action="submit_form.php" method="post">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <section class="contact-info">
+        <h2>Contact Us</h2>
+        <p>Email: <a href="mailto:info@farmfreshgrocery.com">info@farmfreshgrocery.com</a></p>
+        <p>Phone: +1 (123) 456-7890</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Farm-Fresh Grocery Shop. All rights reserved.</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
